@@ -1,7 +1,7 @@
 {
   "name": "xmath_pkg",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "description": "npm package for math calculation",
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
