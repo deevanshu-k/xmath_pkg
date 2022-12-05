@@ -11,6 +11,7 @@ Take two integer args and git its value in integer type
 }
 ```
 <br>
+
 ### add
 Take two integer args and git its value in integer type
 ```
