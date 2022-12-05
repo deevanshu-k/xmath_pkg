@@ -6,8 +6,8 @@ NPM module for math calculation
 ### multiply
 Take two integer args and git its value in integer type
 ```
-(a,b) => {
-    return a*b
+function multiply(...args){
+    return ans;
 }
 ```
 <br>
@@ -15,7 +15,7 @@ Take two integer args and git its value in integer type
 ### add
 Take two integer args and git its value in integer type
 ```
-(a,b) => {
-    return a+b
+function add(...args){
+    return ans;
 }
 ```

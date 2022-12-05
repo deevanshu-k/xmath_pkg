@@ -1,6 +1,14 @@
-export function multiply(a:number, b:number) {
-    return a * b;
+export function multiply(...args:number[]) {
+    let ans:number = 1;
+    args.forEach((v:number) => {
+        ans = ans * v;
+    });
+    return ans;
 }
-export function add(a:number, b:number) {
-    return a + b;
+export function add(...args:number[]) {
+    let sum : number = 0;
+    args.forEach((v:number) => {
+        sum = sum + v;
+    });
+    return sum;
 }
