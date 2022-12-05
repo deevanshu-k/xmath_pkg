@@ -9,7 +9,18 @@
     "test:dev": "jest --watch"
   },
   "author": "Deevanshu Kushwah",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": "https://github.com/deevanshu-k/xmath_pkg",
+  "homepage": "https://github.com/deevanshu-k/xmath_pkg/README.md",
+  "keywords": [
+    "math",
+    "functions",
+    "calculation"
+  ],
+  "files": [
+    "Readme.md",
+    "lib/"
+  ],
   "devDependencies": {
     "@types/jest": "^29.2.3",
     "jest": "^29.3.1",
