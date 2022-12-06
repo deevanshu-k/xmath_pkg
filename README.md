@@ -4,7 +4,7 @@ NPM module for math calculation
 ## Functions
 
 ### multiply
-Take two integer args and git its value in integer type
+Function to find multiplication of numbers
 ```
 function multiply(...args){
     return ans;
@@ -13,9 +13,18 @@ function multiply(...args){
 <br>
 
 ### add
-Take two integer args and git its value in integer type
+Function to find addition of numbers
 ```
 function add(...args){
     return ans;
+}
+```
+<br>
+
+### pow
+Function to find power of two number
+```
+function pow(a,b){
+    return a^b;
 }
 ```
