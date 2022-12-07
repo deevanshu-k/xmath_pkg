@@ -12,3 +12,12 @@ export function add(...args:number[]) {
     });
     return sum;
 }
+export function pow(base:number,power:number):number{
+    if(power == 0){
+        return 1;
+    }
+    if((power&1) != 0){
+        return base * pow(base,power-1);
+    }
+    return pow(base*base,power/2);
+}
