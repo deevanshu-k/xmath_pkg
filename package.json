@@ -1,6 +1,6 @@
 {
   "name": "xmath_pkg",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "npm package for math calculation",
   "main": "index.js",
   "types": "./lib/index.d.ts",
