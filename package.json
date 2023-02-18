@@ -3,6 +3,7 @@
   "version": "1.0.7",
   "description": "npm package for math calculation",
   "main": "index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "build": "npx tsc",
     "test": "jest",
